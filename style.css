@@ -131,15 +131,3 @@ button:hover {
 .carrossel button.proximo {
     right: 10px;
 }
-
-@media (max-width: 768px) {
-    #contagem {
-        font-size: 2rem;
-    }
-}
-
-@media (max-width: 480px) {
-    #contagem {
-        font-size: 1.5rem;
-    }
-}
