@@ -21,6 +21,8 @@ body {
     max-width: 90%;
     position: relative;
     height: auto;
+    align-items: center; 
+    flex-wrap: wrap; 
 }
 
 h1 {
