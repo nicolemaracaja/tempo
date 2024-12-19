@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempo Juntos</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div id="buttons">
+            <button onclick="mostrarMensagem('Eu roubaria uma orquestra inteira por você.')">
+                <img src="./images/trompa-francesa.png" class="icon1">
+            </button>
+
+            <a href="https://open.spotify.com/playlist/15RrlYJtkuFuy2FNOvbGQt?si=jZMQQo5KTsO0UIfAu1bciQ&pt=b7f2af5bab4b3e19a333994fa05b292b&pi=lDjQ1wGpSLSAE" target="_blank">
+                <button class="btn-linkedin">
+                    <img src="./images/logotipo-spotify.png" class="iconSpotify">
+                </button>
+            </a>
+    
+            <button onclick="mostrarMensagem('Em algum lugar lá fora, há um guarda-chuva amarelo para todo mundo. E você é o meu!')">
+                <img src="./images/guarda-chuva.png" class="icon2">
+            </button>
+        </div>
+
+        <div id="mensagem"></div>
+
+        <div class="carrossel">
+            <button class="anterior" onclick="mudarImagem(-1)">&#10094;</button>
+            <div class="imagens">
+                <img src="./images/foto1.jpg" alt="Foto 1">
+                <img src="./images/foto2.jpg" alt="Foto 2">
+                <img src="./images/foto3.jpg" alt="Foto 3">
+            </div>
+            <button class="proximo" onclick="mudarImagem(1)">&#10095;</button>
+        </div>
+        
+        <h1>Estamos juntos há...</h1>
+        <p id="contagem"></p>
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>
