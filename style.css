@@ -20,6 +20,9 @@ body {
     box-shadow: 0 4px 25px rgba(0, 0, 0, 0.2);
     max-width: 90%;
     position: relative;
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 h1 {
